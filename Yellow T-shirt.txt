@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_bg"
+    tools:context=".YellowTshirtActivity">
+
+    <RadioGroup
+        android:id="@+id/camoq1"
+        android:layout_width="290dp"
+        android:layout_height="209dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21">
+
+        <RadioButton
+            android:id="@+id/tight"
+            android:layout_width="196dp"
+            android:layout_height="49dp"
+            android:text="Grass"
+            android:textColor="#FAE105"
+            app:fontFamily="@font/galada" />
+
+        <RadioButton
+            android:id="@+id/traditional"
+            android:layout_width="196dp"
+            android:layout_height="54dp"
+            android:text="Gold"
+            android:textColor="#FAE105"
+            app:fontFamily="@font/galada" />
+
+        <RadioButton
+            android:id="@+id/tshape"
+            android:layout_width="197dp"
+            android:layout_height="57dp"
+            android:text="Alligator leather"
+            android:textColor="#FAE105"
+            app:fontFamily="@font/galada" />
+
+        <RadioButton
+            android:id="@+id/tubular"
+            android:layout_width="198dp"
+            android:layout_height="56dp"
+            android:text="Human hair"
+            android:textColor="#FAE105"
+            app:fontFamily="@font/galada" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="367dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="1) Which of these materials has a T-shirt not been made out of?"
+
+        android:textSize="20sp"
+        app:fontFamily="@font/galada"
+        android:textColor="#FAE105"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/camoq2"
+        android:layout_width="290dp"
+        android:layout_height="209dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811">
+
+        <RadioButton
+            android:id="@+id/onelitre"
+            android:layout_width="196dp"
+            android:layout_height="49dp"
+            android:text="200, in USA"
+            app:fontFamily="@font/galada"
+            android:textColor="#FAE105" />
+
+        <RadioButton
+            android:id="@+id/sevenhundred"
+            android:layout_width="196dp"
+            android:layout_height="54dp"
+            android:text="257, in Sri Lanka"
+            app:fontFamily="@font/galada"
+            android:textColor="#FAE105" />
+
+        <RadioButton
+            android:id="@+id/thousandsevenhundred"
+            android:layout_width="197dp"
+            android:layout_height="57dp"
+            android:text="260, in Canada"
+            app:fontFamily="@font/galada"
+            android:textColor="#FAE105" />
+
+        <RadioButton
+            android:id="@+id/twothousandsevenhundred"
+            android:layout_width="198dp"
+            android:layout_height="56dp"
+            android:text="300, in Japan"
+            app:fontFamily="@font/galada"
+            android:textColor="#FAE105" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="2) The current world record for most T-shirts worn at all once is"
+        app:fontFamily="@font/galada"
+        android:textColor="#FAE105"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/camots_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button_bg"
+        android:text="submit"
+        app:fontFamily="@font/galada"
+        android:textColor="#FAE105"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
